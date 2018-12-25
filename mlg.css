@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(135deg, rgb(100, 190, 255) 0%, rgb(240, 90, 220) 50%, rgb(210, 0, 110) 100%);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Alegreya Sans";
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+main {
+  position: relative;
+  width: 43em;
+  margin: 6em auto;
+  padding: 2em 0em;
+  background: rgba(85, 119, 255, .2);
+  border: 1px solid rgba(0, 0, 0, .04);
+  border-radius: 2px;
+  transition: .2s background;  
+}
+
+main:hover {
+  background: rgba(255, 0, 80, .3);
+}
+
+main img {
+  position: absolute;
+  width: 5em;
+  top: .5em;
+  right: 1em;
+}
